@@ -35,6 +35,41 @@ yea = [10,20,30,40,50,60,70,80,90,100]
 print(yea),
 print(yea[0]),
 
+#EP. 6
+
+tup = (10,15,20,25,30,10)
+print(tup), #Tuple(A type of list tht can'nbe mutated or changed)
+
+print(tup.count(10)), #Count(Use this to count the number of variables that repeat in a tuple)
+print(tup.index(30)), #Index(Shows theindex number of the given variable)
+
+s = {3317,4051,2,18,1989}
+print(s), #Set(Use when needing to refer to a list quickly w/o variables being ina specific order, cant have dupes)
+
+#EP7 (SKIPPED)
+
+#EP8 (SKIPPED)
+
+#EP9 Variables
+
+num = 3
+print(num), #Variable(A container for number & strings/text)
+print(id(num)), #ID(Gives you the loation of that given varibles)
+a = 10
+b = a
+print(a),
+print(b),
+print(id(a)), #Even if you make a variable of variable the location will stay the same.
+print(id(b)),
+
+pi = 3.14
+print(pi), #Constant(A type of vaiable that can'nbe mutated or changed)
+print(type(pi)), #Type(use this to see what type of data is being used)
+
+#EP 10 Data types
+
+
+
 
 
 
